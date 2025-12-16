@@ -1,7 +1,7 @@
 {
   "custom/test-module": {
-    "exec": "$MODULE_PATH/script.sh",
-    "interval": 5,
+    "exec": "echo '$PREF_message'",
+    "interval": $PREF_interval,
     "format": "{}",
     "tooltip": false
   }
