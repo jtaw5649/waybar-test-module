@@ -1,0 +1,8 @@
+{
+  "custom/test-module": {
+    "exec": "$MODULE_PATH/script.sh",
+    "interval": 5,
+    "format": "{}",
+    "tooltip": false
+  }
+}
